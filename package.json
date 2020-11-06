@@ -16,9 +16,7 @@
     "url": "https://github.com/klementj/quatar-copy/issues"
   },
   "homepage": "https://github.com/klementj/quatar-copy#readme",
-  "dependencies": {
-    "typography.css": "^0.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
   }
