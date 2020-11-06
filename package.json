@@ -1,0 +1,25 @@
+{
+  "name": "quatar-copy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klementj/quatar-copy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klementj/quatar-copy/issues"
+  },
+  "homepage": "https://github.com/klementj/quatar-copy#readme",
+  "dependencies": {
+    "typography.css": "^0.1.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
