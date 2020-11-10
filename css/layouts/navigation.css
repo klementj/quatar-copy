@@ -1,1 +1,59 @@
-/* Main navigation */
+  body {
+      margin: auto;
+  }
+
+  a {
+    font-family: 'Shanti', sans-serif;
+    color: #5c0931;
+    margin: 50px;
+    font-size: 22px;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .login {
+    color: #5c0931;
+    font-family: 'Shanti', sans-serif;
+  }
+  h2 {
+    color: #5c0931;
+    font-family: 'Shanti', sans-serif;
+    margin: 0;
+  }
+  .Search {
+    top: 10px;
+    right: 5px;
+    width: 46px;
+    height: 46px
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .container2 {
+    position: relative;
+    bottom: 140px;
+    left: 280px;
+  }
+  .container3 {
+    position: relative;
+    bottom: 158px;
+    left: 290px;
+  }
+  .Search {
+    position: absolute;
+    left: 98rem;
+    top: 45px;
+  }
+  .container5 {
+    position: absolute;
+    top: 35px;
+    right: 31rem;
+  }
+  .ls {
+    position: absolute;
+    left: 90rem;
+    top: 40px;
+    font-size: 13px;
+  }
