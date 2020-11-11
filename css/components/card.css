@@ -1,1 +1,230 @@
 /* CSS for cards with hover animation */
+.center{
+    max-width: 200px;
+    margin: 0 auto;
+}
+body{
+    width: 100vh;
+}
+.animation1, .animation2, .animation3, .animation4, .animation5, .animation6, .animation7, .animation8, .animation9, .animation10{
+   opacity: 1; 
+   bottom: -250px;
+   width: 100%;
+   height: 230px;
+   background-color:hsla(331, 82%, 20%, 0.8);
+   transition: bottom 0.6s;
+
+   
+}
+.animation3, .animation9, .animation9, .animation10{
+    height: 150px;
+}
+.animation1:hover, .animation2:hover, .animation3:hover{
+    bottom: 100px;
+}
+.container1, .container2, .container2, .container3, .container4, .container5, .container6, .container7, .container8,  .container9, .container10{
+    color: black;
+    overflow: hidden;
+  
+}
+.container8, .container1, .container2{
+height: 300px;
+}
+.container1, .container2{
+    width: 300px;   
+}
+.container3{
+    width: 606px;
+    height:606px;
+}
+.container4{
+    width:604px;
+    height:301.5px;
+}
+.container5{
+    height: 608px;
+}
+.container8{
+    top: -307px;
+}
+.container9, .container10{
+    width: 1216px;
+    height: 528px;
+    
+}
+.span, .navigationgrid, .navigationgrid2, .container1, .container2, .container2, .container3, .container4, .container5, .container6, .container7, .container8,  .container9, .container10{
+    position: relative;
+}
+.img, .text1, .text2, .text3, .text4, .text5, .text6, .text4b, .text5b, .text6b, .textcontainer, .select, .span2, .link, .link2, .animation1, .animation2, .animation3, .animation4, .animation5, .animation6, .animation7, .animation8, .animation9, .animation10{
+    position: absolute;
+}
+.img1{
+    top: -80px;
+    display: block;
+    object-fit: scale-down;
+}
+.img2{
+    top: -140px;
+}
+.img3{
+    top: -300px;
+   height: 150%;
+}
+.img4{
+    width: 610px;
+   top: -200px;
+}
+.img7, .img6, .img10, .img3, .img9, .img1, .img8, .textcontainer{
+    width: 100%;
+}
+.img5{
+    height: 100%;
+    right: -200px;
+}
+.img9{
+  height: 150%;
+  top:-80px;
+}
+
+.container1:hover > .animation1, .container2:hover > .animation2, .container3:hover > .animation3, .container4:hover > .animation4, .container5:hover > .animation5, .container6:hover > .animation6, .container7:hover > .animation7, .container8:hover > .animation8,  .container9:hover > .animation9, .container10:hover > .animation10{
+    bottom: -0px;
+}
+.text1, .text2, .text3, .text4, .text5, .text6, .text4b, .text5b, .text6b{
+    left: 25px;
+    font-weight: 100px;
+}
+.text1, .text3, .text4, .text6, .text4b, .text6b{
+    font-size: 25px;
+}
+.text1{
+    bottom: 90px;
+    text-shadow: 10px 10px black 0.8;
+}
+.text2{
+    bottom: 68px;
+    font-size: 16px;
+}
+.text3{
+    bottom: 35px;
+}
+.text4{
+    top: 20px;
+}
+.text5{
+    top: 55px;
+    font-size: 16px;
+}
+.text6{
+    top:80px;
+}
+.text4b{
+    top: 35px;
+}
+.text5b{
+    top: 70px;
+    font-size: 16px;
+}
+.text6b{
+    top:95px;
+}
+/*general use for the text containers*/
+.textcontainer{
+    height: 150px;
+    bottom: 0;
+    background-image: -webkit-linear-gradient(top,rgba(255,0,0,0) 10%,rgba(0,0,0,0.5) 80%);
+    background-image: -webkit-linear-gradient(top,rgba(255,0,0,0) 10%,rgba(0,0,0,0.5) 80%);
+    background-image: -moz-linear-gradient(top,rgba(255,0,0,0) 10%,rgba(0,0,0,0.5) 80%);
+    background-image: -ms-linear-gradient(top,rgba(255,0,0,0) 10%,rgba(0,0,0,0.5) 80%);
+    background-image: -o-linear-gradient(top,rgba(255,0,0,0) 10%,rgba(0,0,0,0.5) 80%); background-image:linear-gradient(top,rgba(255,0,0,0) 10%,rgba(0,0,0,0.5) 80%);
+    transition: opacity .5s;
+}
+
+.container1:hover > .textcontainer, .container2:hover > .textcontainer, .container3:hover > .textcontainer, .container4:hover > .textcontainer, .container5:hover > .textcontainer, .container6:hover > .textcontainer, .container7:hover > .textcontainer, .container8:hover > .textcontainer, .container9:hover >.textcontainer, .container10:hover > .textcontainer{
+    opacity: 0;
+}
+.select{
+   left: 45px;
+   top: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+body{
+    font-family: Jotia,Verdana,Geneva,sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #5c0931;
+    background-color: #f7f7f7;
+}
+.span, .span2{
+    background-color: #ffa903;
+    border: #ffa903;
+    width: 200px;
+    height: 60px;
+}
+.span{
+    top: 130px;
+    bottom: 30px;
+    left: 25px;
+    text-align: center;
+    border-radius: 3px;
+    transition: all .3s;
+}
+.span2{
+    top: 40px;
+    bottom: 30px;
+    right: 25px;
+    text-align: center;
+    border-radius: 3px;
+    transition: all .3s;
+}
+.span:hover, .span2:hover{
+    transform: scale(1.05);
+}
+.textcontainer2{
+    height: 100%;
+}
+.link, .link2,.text1, .text2, .text3, .text4, .text5, .text6, .text4b, .text5b, .text6b{
+    color: white;
+}
+.link{
+    bottom: 3px;
+    left:25px;
+}
+.link2{
+    bottom:20px;
+    right: 165px;
+}
+html{
+    font-family: sans-serif;
+}
+:after, :before{
+    box-sizing: border-box;
+}
+
+.phuket, .sulaymaniyah{
+    display: flex;
+    justify-content: flex-end;
+}
+.flex{
+    display:flex;
+    flex-direction: flex-end;
+    
+}
+.navigationgrid, .navigationgrid2{
+    display: grid;
+}
+.navigationgrid{
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 33.2% 20%;
+    grid-gap: 2px;
+    top: 50px;
+
+}
+.navigationgrid2{
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 608px ;
+    grid-gap: 7.5px;
+    top: -250px;
+}
+
