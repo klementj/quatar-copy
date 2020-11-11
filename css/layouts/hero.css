@@ -1,5 +1,5 @@
 /* Hero section */
-.bg-image, .wavystuff{
+.bg-image, .wavystuff, .wavystuff2{
     box-sizing: border-box;
 }
 .bg-image{
@@ -10,12 +10,14 @@
     background-position: center;
     background-size: cover;
 }
-.wavystuff{
+.wavystuff, .wavystuff2{
     overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
     display: block;
     margin-top: 465px;
+}
+.wavystuff2{
+    margin-left: 1990px;
+    margin-top: -128px;
 }
 .herobutton{
     position: absolute;
