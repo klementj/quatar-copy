@@ -1,1 +1,42 @@
 /* Hero section */
+.bg-image, .wavystuff{
+    box-sizing: border-box;
+}
+.bg-image{
+    background-image: url(/images/qatar-copy-hero.jpg);
+    overflow: hidden;
+    height: 589px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.wavystuff{
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 465px;
+}
+.herobutton{
+    position: absolute;
+    color: black;
+    height: 40px;
+    line-height: 40px;
+    width: 175px;
+    border-color: orange;
+    background-color: orange;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 3px;
+    border-style: solid;
+    text-align: center;
+    left: 25vw;
+    top: 250px;
+    text-decoration: none;
+}
+.herobutton:hover{
+    border-radius: 3px;
+    border-style: solid;
+    background-color: rgb(255, 145, 0);
+    border-color: rgb(255, 145, 0);
+}
