@@ -1,12 +1,10 @@
-  body {
-      margin: auto;
-  }
+
   .navigation {
     margin: 50px;
     font-size: 22px;
     bottom: 20px;
   }
- .search, .ls .container5b{
+ .Search, .ls, .container5b{
    position: absolute;
  }
   .login, .signup, .navigation {
@@ -20,8 +18,8 @@
     margin: 0;
   }
   .Search {
-    top: 10px;
-    right: 5px;
+    right: 20rem;
+    top: 41px;
     width: 46px;
     height: 46px;
   }
@@ -38,16 +36,16 @@
     bottom: 158px;
     left: 290px;
   }
-  .Search {
-    left: 98rem;
-    top: 45px;
-  }
   .container5b {
     top: 35px;
     right: 31rem;
   }
   .ls {
-    left: 90rem;
-    top: 40px;
-    font-size: 13px;
+    left: 88rem;
+    top: 35px;
+    font-size: 12px;
+    font-weight: lighter;
+  }
+  .header{
+    position: relative;
   }

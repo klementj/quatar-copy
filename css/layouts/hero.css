@@ -27,13 +27,13 @@
     width: 175px;
     border-color: orange;
     background-color: orange;
-    font-size: 24px;
-    font-weight: 700;
-    border-radius: 3px;
+    font-size: 18px;
+    font-weight: lighter;
+    border-radius: 2px;
     border-style: solid;
     text-align: center;
     left: 25vw;
-    top: 250px;
+    top: 600px;
     text-decoration: none;
 }
 .herobutton:hover{
